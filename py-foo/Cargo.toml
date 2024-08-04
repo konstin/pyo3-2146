@@ -1,0 +1,9 @@
+[package]
+name = "foo"
+version = "0.1.0"
+edition = "2021"
+readme = "README.md"
+
+[dependencies]
+pyo3 = { version = "0.22.2", features = ["extension-module"] }
+crates = { path = "../crates" }
